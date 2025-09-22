@@ -1,0 +1,375 @@
+{
+  "buttons": {
+    "create": "Thêm",
+    "logout": "Đăng xuất",
+    "refresh": "Làm mới",
+    "delete": "Xóa",
+    "save": "Lưu",
+    "confirm": "Đồng ý",
+    "cancel": "Hủy",
+    "edit": "Chỉnh sửa",
+    "show": "Xem",
+    "lock": "Khóa",
+    "saveDraft": "Lưu nháp",
+    "list": "Danh sách"
+  },
+  "notifications": {
+    "success": "Thành công",
+    "createError": "Tạo thất bại",
+    "editSuccess": "Chỉnh sửa thành công",
+    "editError": "Chỉnh sửa thất bại",
+    "error": "Lỗi",
+    "createSuccess": "Tạo thành công",
+    "deleteSuccess": "Xóa thành công"
+  },
+  "pages": {
+    "login": {
+      "title": "Đăng nhập",
+      "fields": {
+        "email": "Email",
+        "password": "Mật khẩu"
+      },
+      "buttons": {
+        "rememberMe": "Ghi nhớ tôi",
+        "forgotPassword": "Quên mật khẩu?",
+        "noAccount": "Bạn không có tài khoản?"
+      },
+      "signin": "Đăng nhập",
+      "signup": "Đăng ký"
+    },
+    "register": {
+      "title": "Đăng ký",
+      "email": "Email",
+      "fields": {
+        "password": "Mật khẩu"
+      },
+      "signup": "Đăng ký",
+      "buttons": {
+        "haveAccount": "Bạn đã có tài khoản?"
+      },
+      "signin": "Đăng nhập"
+    },
+    "forgotPassword": {
+      "title": "Đặt lại mật khẩu",
+      "fields": {
+        "email": "Email"
+      },
+      "buttons": {
+        "haveAccount": "Bạn đã có tài khoản?",
+        "submit": "Gửi"
+      },
+      "signin": "Đăng nhập"
+    },
+    "error": {
+      "404": "Không tìm thấy trang",
+      "backHome": "Quay lại trang chủ"
+    }
+  },
+  "blog_posts": {
+    "titles": {
+      "list": "Danh sách bài viết",
+      "edit": "Chỉnh sửa bài viết",
+      "create": "Tạo bài viết mới",
+      "show": "Xem bài viết"
+    }
+  },
+  "categories": {
+    "titles": {
+      "list": "Danh sách danh mục",
+      "edit": "Chỉnh sửa danh mục",
+      "create": "Tạo danh mục mới",
+      "show": "Xem danh mục"
+    }
+  },
+  "dashboard": {
+    "dashboard": "Dashboard",
+    "totalListings.active": "Hoạt động",
+    "totalListings.pending": "Chờ duyệt",
+    "totalListings.vip": "VIP",
+    "newUsers.thisMonth": "Tháng này",
+    "vipRevenue.comparedToLastMonth": "{{value}} so với tháng trước",
+    "violationListings.needToBeReviewed": "Cần xử lý",
+    "views": {
+      "byTime": "Theo thời gian"
+    },
+    "topListings.views": "{{views}} lượt xem",
+    "recentListings": {
+      "title": "Tiêu đề",
+      "createdBy": "Người đăng",
+      "createdAt": "Thời gian",
+      "status": "Trạng thái"
+    },
+    "titles": {
+      "recentListings": "Tin đăng gần đây",
+      "totalListings": "Tổng số tin đăng",
+      "vipRevenue": "Doanh thu VIP",
+      "violationListings": "Tin vi phạm",
+      "topListings": "Top tin đăng xem nhiều",
+      "newUsers": "Người dùng mới"
+    }
+  },
+  "__listings__": {
+    "__listings__": "Quản lý tin đăng",
+    "buttons": {
+      "publish": "Đăng tin"
+    },
+    "titles": {
+      "vipOption": "Tuỳ chọn VIP",
+      "basicInfo": "Thông tin cơ bản",
+      "listingPlans": "Gói đăng tin",
+      "images": "Hình ảnh",
+      "location": "Địa điểm"
+    },
+    "vipOption": {
+      "title": "Tin nổi bật VIP",
+      "description": "Hiển thị ưu tiên trên trang chủ"
+    },
+    "fields": {
+      "title": "Tiêu đề",
+      "type": "Loại tin",
+      "price": "Giá",
+      "acreage": "Diện tích (m2)",
+      "description": "Mô tả",
+      "address": "Địa chỉ"
+    },
+    "placeholders": {
+      "title": "Tiêu đề",
+      "type": "Loại tin",
+      "price": "Giá",
+      "acreage": "Diện tích",
+      "description": "Mô tả",
+      "address": "Địa chỉ"
+    },
+    "options": {
+      "sell": "Bán",
+      "rent": "Cho thuê"
+    },
+    "listingPlans": {
+      "basic": "Gói cơ bản",
+      "free": "Miễn phí",
+      "showDays": "Hiển thị trong {{days}} ngày",
+      "highlight": "Gói nổi bật",
+      "premium": "Gói cao cấp"
+    }
+  },
+  "listings": {
+    "listings": "Tin đăng",
+    "buttons": {
+      "publish": "Đăng tin"
+    },
+    "titles": {
+      "vipOption": "Tuỳ chọn VIP",
+      "basicInfo": "Thông tin cơ bản",
+      "listingPlans": "Gói đăng tin",
+      "images": "Hình ảnh",
+      "location": "Địa điểm",
+      "list": "Tin đăng",
+      "create": "Tạo tin đăng"
+    },
+    "vipOption": {
+      "title": "Tin nổi bật VIP",
+      "description": "Hiển thị ưu tiên trên trang chủ"
+    },
+    "fields": {
+      "title": "Tiêu đề",
+      "type": "Loại tin",
+      "price": "Giá",
+      "acreage": "Diện tích (m2)",
+      "description": "Mô tả",
+      "address": "Địa chỉ"
+    },
+    "placeholders": {
+      "title": "Tiêu đề",
+      "type": "Loại tin",
+      "price": "Giá",
+      "acreage": "Diện tích",
+      "description": "Mô tả",
+      "address": "Địa chỉ"
+    },
+    "options": {
+      "sell": "Bán",
+      "rent": "Cho thuê"
+    },
+    "listingPlans": {
+      "basic": "Gói cơ bản",
+      "free": "Miễn phí",
+      "showDays": "Hiển thị trong {{days}} ngày",
+      "highlight": "Gói nổi bật",
+      "premium": "Gói cao cấp"
+    }
+  },
+  "listing_facilities": {
+    "listing_facilities": "Tiện ích",
+    "titles": {
+      "list": "Danh sách tiện ích",
+      "edit": "Chỉnh sửa tiện ích",
+      "create": "Tạo tiện ích mới",
+      "show": "Xem tiện ích"
+    }
+  },
+  "listing_attributes": {
+    "listing_attributes": "Thuộc tính",
+    "titles": {
+      "list": "Danh sách thuộc tính",
+      "edit": "Chỉnh sửa thuộc tính",
+      "create": "Tạo thuộc tính mới",
+      "show": "Xem thuộc tính"
+    }
+  },
+  "directus_users": {
+    "directus_users": "Quản lý người dùng",
+    "fields": {
+      "fullName": "Họ và tên",
+      "status": "Trạng thái",
+      "phoneNumber": "Số điện thoại",
+      "actions": "Hành động",
+      "latestLogin": "Lần đăng nhập gần đây",
+      "email": "Email",
+      "selectAvatar": "Chọn ảnh đại diện"
+    },
+    "titles": {
+      "list": "Danh sách người dùng",
+      "show": "Xem người dùng",
+      "edit": "Chỉnh sửa người dùng",
+      "create": "Tạo người dùng mới"
+    }
+  },
+  "users": {
+    "users": "Quản lý người dùng",
+    "fields": {
+      "fullName": "Họ và tên",
+      "status": "Trạng thái",
+      "phoneNumber": "Số điện thoại",
+      "actions": "Hành động",
+      "latestLogin": "Lần đăng nhập gần đây",
+      "email": "Email",
+      "selectAvatar": "Chọn ảnh đại diện"
+    }
+  },
+  "violations": {
+    "violations": "Báo cáo vi phạm"
+  },
+  "review-listings": {
+    "review-listings": "Kiểm duyệt tin đăng",
+    "overview": {
+      "waitForReview": "Chờ duyệt",
+      "todayApproved": "Đã duyệt hôm nay",
+      "todayRejected": "Đã từ chối hôm nay",
+      "totalThisMonth": "Tổng số tháng này"
+    },
+    "titles": {
+      "waitForReview": "Chờ duyệt",
+      "reviewHistory": "Lịch sử duyệt"
+    },
+    "columns": {
+      "title": "Tin đăng",
+      "createdBy": "Người đăng",
+      "price": "Giá",
+      "status": "Trạng thái",
+      "actions": "Hành động",
+      "time": "Thời gian"
+    },
+    "actions": {
+      "approve": "Duyệt",
+      "reject": "Từ chối",
+      "view": "Xem"
+    },
+    "reviewHistory": {
+      "rejected": "Từ chối: {{title}}",
+      "approved": "Đã duyệt: {{title}}",
+      "approvedBy": "Đã duyệt (bởi {{name}})",
+      "rejectedReason": "Lý do: {{reason}} (bởi {{name}})"
+    }
+  },
+  "projects": {
+    "projects": "Quản lý dự án",
+    "titles": {
+      "list": "Danh sách dự án",
+      "create": "Tạo dự án mới",
+      "edit": "Chỉnh sửa dự án",
+      "show": "Xem dự án"
+    }
+  },
+  "listing_plans": {
+    "listing_plans": "Gói đăng tin",
+    "titles": {
+      "list": "Danh sách gói",
+      "create": "Tạo gói mới",
+      "edit": "Chỉnh sửa gói",
+      "show": "Xem gói"
+    }
+  },
+  "listing_categories": {
+    "listing_categories": "Danh mục BĐS",
+    "titles": {
+      "list": "Danh mục BĐS",
+      "create": "Thêm",
+      "edit": "Chỉnh sửa danh mục BĐS",
+      "show": "Xem danh mục BĐS"
+    }
+  },
+  "payment_transactions": {
+    "payment_transactions": "Giao dịch thanh toán",
+    "titles": {
+      "list": "Danh sách giao dịch",
+      "create": "Tạo giao dịch mới",
+      "edit": "Chỉnh sửa giao dịch",
+      "show": "Xem giao dịch"
+    }
+  },
+  "advertising_banners": {
+    "advertising_banners": "Banner quảng cáo",
+    "titles": {
+      "list": "Danh sách banner",
+      "create": "Tạo banner mới",
+      "edit": "Chỉnh sửa banner",
+      "show": "Xem banner"
+    }
+  },
+  "statuses": {
+    "active": "Hoạt động"
+  },
+  "actions": {
+    "create": "Tạo"
+  },
+  "directus-fields": {
+    "list": {
+      "addItem": "Thêm thuộc tính",
+      "updateItem": "Cập nhật",
+      "empty": "Không có dữ liệu"
+    },
+    "list-m2m": {
+      "select": "Chọn",
+      "empty": "Không có dữ liệu"
+    },
+    "files": {
+      "upload": "Tải lên",
+      "selectFile": "Chọn tệp",
+      "dropzone": "Thả tệp vào đây",
+      "notFound": "Tệp không khả dụng",
+      "empty": "Không có tệp"
+    }
+  },
+  "titles": {
+    "search": "Tìm kiếm"
+  },
+  "__projects__": {
+    "__projects__": "Dự án"
+  },
+  "project_attributes": {
+    "project_attributes": "Thuộc tính",
+    "titles": {
+      "list": "Danh sách thuộc tính",
+      "create": "Tạo thuộc tính mới",
+      "edit": "Chỉnh sửa thuộc tính"
+    }
+  },
+  "project_facilities": {
+    "project_facilities": "Tiện ích",
+    "titles": {
+      "list": "Danh sách tiện ích",
+      "create": "Tạo tiện ích mới",
+      "edit": "Chỉnh sửa tiện ích"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+export const NEXT_PUBLIC_HERE_API_KEY = process.env.NEXT_PUBLIC_HERE_API_KEY!;
+export const NEXT_PUBLIC_DIRECTUS_URL = process.env.NEXT_PUBLIC_DIRECTUS_URL!;
+export const NEXT_PUBLIC_DIRECTUS_CDN_URL =
+  process.env.NEXT_PUBLIC_DIRECTUS_CDN_URL!;
+export const NEXT_PUBLIC_API_URL = process.env.NEXT_PUBLIC_API_URL;

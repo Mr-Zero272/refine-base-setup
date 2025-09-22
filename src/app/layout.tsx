@@ -1,17 +1,11 @@
-import { DevtoolsProvider } from "@providers/devtools";
-import { GitHubBanner, Refine } from "@refinedev/core";
-import { RefineKbar, RefineKbarProvider } from "@refinedev/kbar";
-import {
-  RefineSnackbarProvider,
-  useNotificationProvider,
-} from "@refinedev/mui";
-import routerProvider from "@refinedev/nextjs-router";
+import { RefineKbarProvider } from "@refinedev/kbar";
+import { RefineSnackbarProvider } from "@refinedev/mui";
 import { Metadata } from "next";
 import { cookies } from "next/headers";
 import React, { Suspense } from "react";
 
 import { ColorModeContextProvider } from "@contexts/color-mode";
-import { dataProvider } from "@providers/data-provider";
+import ClientProvider from "@providers/client-provider";
 
 export const metadata: Metadata = {
   title: "Refine",
@@ -34,25 +28,12 @@ export default async function RootLayout({
     <html lang="en">
       <body>
         <Suspense>
-          <GitHubBanner />
           <RefineKbarProvider>
             <ColorModeContextProvider defaultMode={defaultMode}>
               <RefineSnackbarProvider>
-                <DevtoolsProvider>
-                  <Refine
-                    routerProvider={routerProvider}
-                    dataProvider={dataProvider}
-                    notificationProvider={useNotificationProvider}
-                    options={{
-                      syncWithLocation: true,
-                      warnWhenUnsavedChanges: true,
-                      projectId: "Q0bMPt-allagr-DsBoKP",
-                    }}
-                  >
-                    {children}
-                    <RefineKbar />
-                  </Refine>
-                </DevtoolsProvider>
+                {/* <DevtoolsProvider> */}
+                  <ClientProvider>{children}</ClientProvider>
+                {/* </DevtoolsProvider> */}
               </RefineSnackbarProvider>
             </ColorModeContextProvider>
           </RefineKbarProvider>
